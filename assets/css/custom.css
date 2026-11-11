@@ -1,0 +1,160 @@
+body {
+  font-family: "Georgia", serif;
+}
+
+h1{
+  color: red;
+}
+h2{
+  color: blue;
+}
+h3{
+  color: blueviolet;
+}
+h4{
+  color: green;
+}
+h5{
+  color: darkgoldenrod;
+}
+h6 {
+  color: pink;
+}
+
+p{
+    font-family: cursive;
+}
+
+a{
+    color:aqua;
+}
+
+a:hover{
+    color:brown;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: black
+
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: -15px;
+  z-index: 99999;
+  background-color: yellowgreen;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 100px;
+}
+
+
+.resume .resume-item {
+  padding: 50px 50px 20px 20px;
+  margin-top: -2px;
+  border-left: 10px solid black;
+  position: relative;
+  box-shadow: 10px 10px lightgray
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  padding: 25px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 40px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 20px;
+}
+
+.skills .progress {
+  height: 80px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  color: var(--heading-color);
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: var(--heading-font);
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: color-mix(purple, transparent 70%);
+  height: 10px;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: rgb(67, 108, 5);
+}
+
+.resume .resume-item::before {
+ content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: var(--background-color);
+  border: 2px solid aquamarine; 
+}
+
+ul{
+    color: lawngreen
+}
+
+ol{
+    color:blueviolet
+}
+
+th{
+    font-family: "Georgia", serif;
+    background-color: black;
+    color: white;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+td:hover{
+    color:blue;
+}
+
+table{
+    border-spacing: 30px;
+}
