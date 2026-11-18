@@ -27,7 +27,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
+  <link href="assets/css/custom.css" rel="stylesheet">
   <!-- =======================================================
   * Template Name: MyResume
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
@@ -47,6 +47,7 @@
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Pagrindinis</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>Apie</span></a></li>
+        <li><a href="#pazangos"><i class="bi bi-images navicon"></i><span>Pazangos</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Patirtis</span></a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Paslaugos</span></a></li>
@@ -87,6 +88,9 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Apie</h2>
       </div><!-- End Section Title -->
+
+      <div class="box"></div>
+      <div class="rectangle"></div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -197,6 +201,134 @@
       </div>
 
     </section><!-- /Skills Section -->
+
+    <!-- kompetenciju pazangos section -->
+    <section id="pazangos" class="pazangos section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kompetenciju pazangos</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div data-aos="fade-up" data-aos-delay="200">
+              <ul>
+                <li>bendras XP: 200</li>
+                <li>Lygis: 3</li>
+                <li>Rangas: Specialistas</li>
+              </ul>
+
+            <label for="file">Progresas iki kito lygio:</label>
+            <progress id="file" value="60" max="100"> 60% </progress>
+
+            <table>
+              <tr>
+                <td>igudiai: 6</td>
+                <td>atlikta: 2</td>
+                <td>procentas: 33%</td>
+              </tr>
+            </table>
+
+           <table border="1">
+              <tr>
+                <th>Planuojama</th>
+                <th>Mokomasi</th>
+                <th>Atlikta</th>
+              </tr>
+
+              <tr> 
+                <td>
+                  <ul>
+                    <li>Javascript ivykiai</li>
+                    <li>busena: planuojama</li>
+                    <li>XP:40</li>
+                  </ul>
+                </td>
+                <td>
+                   <ul>
+                    <li>html pagrindai</li>
+                    <li>busena: Mokomasi</li>
+                    <li>XP:30</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Responsive dizainas</li>
+                    <li>busena: atlikta</li>
+                    <li>XP:40</li>
+                  </ul> 
+                </td>
+              </tr>
+
+              <tr> 
+                <td>
+                  <ul>
+                    <li>DOM valdymas</li>
+                    <li>busena: planuojama</li>
+                    <li>XP:40</li>
+                  </ul>
+                </td>
+                <td>
+                   <ul>
+                    <li>css stilizavimas</li>
+                    <li>busena: Mokomasi</li>
+                    <li>XP:30</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Github pages</li>
+                    <li>busena: atlikta</li>
+                    <li>XP:20</li>
+                  </ul> 
+                </td>
+              </tr>
+
+           </table>
+            
+           <table>
+              <tr>
+                <th>Lygis</th>
+                <th>XP</th>
+                <th>Rangas</th>
+              </tr>
+
+              <tr>
+                  <td>1</td>
+                  <td>0-49 XP</td>
+                  <td>Pradedantysis</td>
+              </tr>
+
+              <tr>
+                  <td>2</td>
+                  <td>50-149 XP</td>
+                  <td>Praktikantas</td>
+              </tr>
+
+              <tr>
+                  <td>3</td>
+                  <td>149-299 XP</td>
+                  <td>Specialistas</td>
+              </tr>
+
+              <tr>
+                  <td>4</td>
+                  <td>>= 300 XP</td>
+                  <td>Profesionalas</td>
+              </tr>
+           </table>
+
+          </div><!-- End pazangos Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /kompetenciju pazangos section -->
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
@@ -312,6 +444,8 @@
 
     </section><!-- /Portfolio Section -->
 
+
+
     <!-- Services Section -->
     <section id="services" class="services section">
 
@@ -322,9 +456,9 @@
 
       <table border="1">
         <tr>
-          <td>paslauga</td>
-          <td>aprasymas</td>
-          <td>kaina</td>
+          <th>paslauga</th>
+          <th>aprasymas</th>
+          <th>kaina</th>
         </tr>
         <tr>
           <td>valdymo pultelis</td>
