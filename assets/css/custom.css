@@ -151,10 +151,109 @@ th, td{
     text-align: center;
 }
 
+td{
+  background-color: color-mix(purple, transparent 40%);
+}
+
 td:hover{
     color:blue;
 }
 
 table{
     border-spacing: 30px;
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.pazangos .progress {
+  height: 80px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.pazangos .progress .skill {
+  color: var(--heading-color);
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: var(--heading-font);
+}
+
+.pazangos .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.pazangos .progress-bar-wrap {
+  background: color-mix(purple, transparent 70%);
+  height: 10px;
+}
+
+.pazangos .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: rgb(67, 108, 5);
+}
+
+.services {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.box{
+  animation: animName 2s linear infinite;
+  width:50px;
+  height:50px;
+  background:#0091EA;
+  margin:20px;
+}
+
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}
+
+.rectangle{
+  animation: animName 2s linear infinite;
+  width:50px;
+  height:100px;
+  background:#0091EA;
+  margin:20px;
+}
+
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
 }
